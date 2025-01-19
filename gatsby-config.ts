@@ -7,7 +7,7 @@ const config: GatsbyConfig = {
     author: "Riccardo Consolandi",
     twitterUsername: `@rickyL3aks`,
     image: `./images/icon.png`,
-    siteUrl: ``,
+    siteUrl: `https://pokedexpro.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,

@@ -24,12 +24,6 @@ const Title = styled.h1`
   margin-bottom: 1rem;
 `;
 
-const PokemonImage = styled.img`
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-  margin-bottom: 1rem;
-`;
-
 const Description = styled.p`
   font-size: 1rem;
   color: #f1f1f1;
@@ -90,6 +84,9 @@ const PokemonDetail = ({ params }: any) => {
   const [description, setDescription] = useState("");
   const [selectedLanguage, setSelectedLanguage] = useState("en");
   const words: any = wordsData;
+
+  // can't publish the website as this is a dynamic page, window is not defined at run time, used useeffect,
+  //didn't work as the dynamic page wasnt loading, and had some problems with the graphql
   const pokemonData = typeof window !== "undefined" && window.history.state?.pokemon;
 
   useEffect(() => {
