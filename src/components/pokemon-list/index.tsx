@@ -40,6 +40,8 @@ export const Card = styled.div<CardProps>`
   padding: 1rem;
 `;
 
+Card.shouldForwardProp = (prop) => prop !== "noHover";
+
 export const TypeBox = styled.span`
   margin: 0.2rem;
   padding: 0.3rem 0.6rem;
