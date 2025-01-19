@@ -1,0 +1,32 @@
+{
+  "attack": {
+    "en": "Attack",
+    "fr": "Attaque",
+    "it": "Attacco"
+  },
+  "defense": {
+    "en": "Defense",
+    "fr": "Défense",
+    "it": "Difesa"
+  },
+  "specialAttack": {
+    "en": "Special Attack",
+    "fr": "Attaque Spéciale",
+    "it": "Attacco Speciale"
+  },
+  "specialDefense": {
+    "en": "Special Defense",
+    "fr": "Défense Spéciale",
+    "it": "Difesa Speciale"
+  },
+  "speed": {
+    "en": "Speed",
+    "fr": "Vitesse",
+    "it": "Velocita"
+  },
+  "type": {
+    "en": "Type",
+    "fr": "Type",
+    "it": "Tipo"
+  }
+}
